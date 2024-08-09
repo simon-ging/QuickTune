@@ -1,0 +1,209 @@
+param groups for model: <class 'timm.models.vision_transformer.VisionTransformer'>
+layer_0_decay        lr=9.7e-03 wd=2.0e-05
+    (768, 3, 32, 32)     patch_embed.proj.weight
+
+layer_0_no_decay     lr=9.7e-03 wd=0.0e+00
+    (768,)               patch_embed.proj.bias
+
+layer_1_decay        lr=1.4e-02 wd=2.0e-05
+    (768, 768)           blocks.0.attn.proj.weight
+    (2304, 768)          blocks.0.attn.qkv.weight
+    (3072, 768)          blocks.0.mlp.fc1.weight
+    (768, 3072)          blocks.0.mlp.fc2.weight
+
+layer_1_no_decay     lr=1.4e-02 wd=0.0e+00
+    (768,)               blocks.0.attn.proj.bias
+    (2304,)              blocks.0.attn.qkv.bias
+    (3072,)              blocks.0.mlp.fc1.bias
+    (768,)               blocks.0.mlp.fc2.bias
+    (768,)               blocks.0.norm1.bias
+    (768,)               blocks.0.norm1.weight
+    (768,)               blocks.0.norm2.bias
+    (768,)               blocks.0.norm2.weight
+
+layer_2_decay        lr=2.0e-02 wd=2.0e-05
+    (768, 768)           blocks.1.attn.proj.weight
+    (2304, 768)          blocks.1.attn.qkv.weight
+    (3072, 768)          blocks.1.mlp.fc1.weight
+    (768, 3072)          blocks.1.mlp.fc2.weight
+
+layer_2_no_decay     lr=2.0e-02 wd=0.0e+00
+    (768,)               blocks.1.attn.proj.bias
+    (2304,)              blocks.1.attn.qkv.bias
+    (3072,)              blocks.1.mlp.fc1.bias
+    (768,)               blocks.1.mlp.fc2.bias
+    (768,)               blocks.1.norm1.bias
+    (768,)               blocks.1.norm1.weight
+    (768,)               blocks.1.norm2.bias
+    (768,)               blocks.1.norm2.weight
+
+layer_3_decay        lr=2.8e-02 wd=2.0e-05
+    (768, 768)           blocks.2.attn.proj.weight
+    (2304, 768)          blocks.2.attn.qkv.weight
+    (3072, 768)          blocks.2.mlp.fc1.weight
+    (768, 3072)          blocks.2.mlp.fc2.weight
+
+layer_3_no_decay     lr=2.8e-02 wd=0.0e+00
+    (768,)               blocks.2.attn.proj.bias
+    (2304,)              blocks.2.attn.qkv.bias
+    (3072,)              blocks.2.mlp.fc1.bias
+    (768,)               blocks.2.mlp.fc2.bias
+    (768,)               blocks.2.norm1.bias
+    (768,)               blocks.2.norm1.weight
+    (768,)               blocks.2.norm2.bias
+    (768,)               blocks.2.norm2.weight
+
+layer_4_decay        lr=4.0e-02 wd=2.0e-05
+    (768, 768)           blocks.3.attn.proj.weight
+    (2304, 768)          blocks.3.attn.qkv.weight
+    (3072, 768)          blocks.3.mlp.fc1.weight
+    (768, 3072)          blocks.3.mlp.fc2.weight
+
+layer_4_no_decay     lr=4.0e-02 wd=0.0e+00
+    (768,)               blocks.3.attn.proj.bias
+    (2304,)              blocks.3.attn.qkv.bias
+    (3072,)              blocks.3.mlp.fc1.bias
+    (768,)               blocks.3.mlp.fc2.bias
+    (768,)               blocks.3.norm1.bias
+    (768,)               blocks.3.norm1.weight
+    (768,)               blocks.3.norm2.bias
+    (768,)               blocks.3.norm2.weight
+
+layer_5_decay        lr=5.8e-02 wd=2.0e-05
+    (768, 768)           blocks.4.attn.proj.weight
+    (2304, 768)          blocks.4.attn.qkv.weight
+    (3072, 768)          blocks.4.mlp.fc1.weight
+    (768, 3072)          blocks.4.mlp.fc2.weight
+
+layer_5_no_decay     lr=5.8e-02 wd=0.0e+00
+    (768,)               blocks.4.attn.proj.bias
+    (2304,)              blocks.4.attn.qkv.bias
+    (3072,)              blocks.4.mlp.fc1.bias
+    (768,)               blocks.4.mlp.fc2.bias
+    (768,)               blocks.4.norm1.bias
+    (768,)               blocks.4.norm1.weight
+    (768,)               blocks.4.norm2.bias
+    (768,)               blocks.4.norm2.weight
+
+layer_6_decay        lr=8.2e-02 wd=2.0e-05
+    (768, 768)           blocks.5.attn.proj.weight
+    (2304, 768)          blocks.5.attn.qkv.weight
+    (3072, 768)          blocks.5.mlp.fc1.weight
+    (768, 3072)          blocks.5.mlp.fc2.weight
+
+layer_6_no_decay     lr=8.2e-02 wd=0.0e+00
+    (768,)               blocks.5.attn.proj.bias
+    (2304,)              blocks.5.attn.qkv.bias
+    (3072,)              blocks.5.mlp.fc1.bias
+    (768,)               blocks.5.mlp.fc2.bias
+    (768,)               blocks.5.norm1.bias
+    (768,)               blocks.5.norm1.weight
+    (768,)               blocks.5.norm2.bias
+    (768,)               blocks.5.norm2.weight
+
+layer_7_decay        lr=1.2e-01 wd=2.0e-05
+    (768, 768)           blocks.6.attn.proj.weight
+    (2304, 768)          blocks.6.attn.qkv.weight
+    (3072, 768)          blocks.6.mlp.fc1.weight
+    (768, 3072)          blocks.6.mlp.fc2.weight
+
+layer_7_no_decay     lr=1.2e-01 wd=0.0e+00
+    (768,)               blocks.6.attn.proj.bias
+    (2304,)              blocks.6.attn.qkv.bias
+    (3072,)              blocks.6.mlp.fc1.bias
+    (768,)               blocks.6.mlp.fc2.bias
+    (768,)               blocks.6.norm1.bias
+    (768,)               blocks.6.norm1.weight
+    (768,)               blocks.6.norm2.bias
+    (768,)               blocks.6.norm2.weight
+
+layer_8_decay        lr=1.7e-01 wd=2.0e-05
+    (768, 768)           blocks.7.attn.proj.weight
+    (2304, 768)          blocks.7.attn.qkv.weight
+    (3072, 768)          blocks.7.mlp.fc1.weight
+    (768, 3072)          blocks.7.mlp.fc2.weight
+
+layer_8_no_decay     lr=1.7e-01 wd=0.0e+00
+    (768,)               blocks.7.attn.proj.bias
+    (2304,)              blocks.7.attn.qkv.bias
+    (3072,)              blocks.7.mlp.fc1.bias
+    (768,)               blocks.7.mlp.fc2.bias
+    (768,)               blocks.7.norm1.bias
+    (768,)               blocks.7.norm1.weight
+    (768,)               blocks.7.norm2.bias
+    (768,)               blocks.7.norm2.weight
+
+layer_9_decay        lr=2.4e-01 wd=2.0e-05
+    (768, 768)           blocks.8.attn.proj.weight
+    (2304, 768)          blocks.8.attn.qkv.weight
+    (3072, 768)          blocks.8.mlp.fc1.weight
+    (768, 3072)          blocks.8.mlp.fc2.weight
+
+layer_9_no_decay     lr=2.4e-01 wd=0.0e+00
+    (768,)               blocks.8.attn.proj.bias
+    (2304,)              blocks.8.attn.qkv.bias
+    (3072,)              blocks.8.mlp.fc1.bias
+    (768,)               blocks.8.mlp.fc2.bias
+    (768,)               blocks.8.norm1.bias
+    (768,)               blocks.8.norm1.weight
+    (768,)               blocks.8.norm2.bias
+    (768,)               blocks.8.norm2.weight
+
+layer_10_decay       lr=3.4e-01 wd=2.0e-05
+    (768, 768)           blocks.9.attn.proj.weight
+    (2304, 768)          blocks.9.attn.qkv.weight
+    (3072, 768)          blocks.9.mlp.fc1.weight
+    (768, 3072)          blocks.9.mlp.fc2.weight
+
+layer_10_no_decay    lr=3.4e-01 wd=0.0e+00
+    (768,)               blocks.9.attn.proj.bias
+    (2304,)              blocks.9.attn.qkv.bias
+    (3072,)              blocks.9.mlp.fc1.bias
+    (768,)               blocks.9.mlp.fc2.bias
+    (768,)               blocks.9.norm1.bias
+    (768,)               blocks.9.norm1.weight
+    (768,)               blocks.9.norm2.bias
+    (768,)               blocks.9.norm2.weight
+
+layer_11_decay       lr=4.9e-01 wd=2.0e-05
+    (768, 768)           blocks.10.attn.proj.weight
+    (2304, 768)          blocks.10.attn.qkv.weight
+    (3072, 768)          blocks.10.mlp.fc1.weight
+    (768, 3072)          blocks.10.mlp.fc2.weight
+
+layer_11_no_decay    lr=4.9e-01 wd=0.0e+00
+    (768,)               blocks.10.attn.proj.bias
+    (2304,)              blocks.10.attn.qkv.bias
+    (3072,)              blocks.10.mlp.fc1.bias
+    (768,)               blocks.10.mlp.fc2.bias
+    (768,)               blocks.10.norm1.bias
+    (768,)               blocks.10.norm1.weight
+    (768,)               blocks.10.norm2.bias
+    (768,)               blocks.10.norm2.weight
+
+layer_12_decay       lr=7.0e-01 wd=2.0e-05
+    (768, 768)           blocks.11.attn.proj.weight
+    (2304, 768)          blocks.11.attn.qkv.weight
+    (3072, 768)          blocks.11.mlp.fc1.weight
+    (768, 3072)          blocks.11.mlp.fc2.weight
+
+layer_12_no_decay    lr=7.0e-01 wd=0.0e+00
+    (768,)               blocks.11.attn.proj.bias
+    (2304,)              blocks.11.attn.qkv.bias
+    (3072,)              blocks.11.mlp.fc1.bias
+    (768,)               blocks.11.mlp.fc2.bias
+    (768,)               blocks.11.norm1.bias
+    (768,)               blocks.11.norm1.weight
+    (768,)               blocks.11.norm2.bias
+    (768,)               blocks.11.norm2.weight
+    (768,)               norm.bias
+    (768,)               norm.weight
+
+layer_13_decay       lr=1.0e+00 wd=2.0e-05
+    (1000, 768)          head.fc.weight
+    (1000, 768)          head.weight
+
+layer_13_no_decay    lr=1.0e+00 wd=0.0e+00
+    (1000,)              head.bias
+    (1000,)              head.fc.bias
+
